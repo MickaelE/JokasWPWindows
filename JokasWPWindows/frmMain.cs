@@ -17,7 +17,7 @@ namespace JokasWPWindows
 
         private void button1_Click(object sender, EventArgs e)
         {
-            oWayPoints.GetWaypointsAsync(wayPointsDataGrid, projectCombo.SelectedValue.ToString());
+            oWayPoints.GetWaypointsAsync(wayPointsDataGrid, projectCombo.SelectedValue.ToString(), projectCombo.Text);
         }
 
         private void bExport_Click(object sender, EventArgs e)
