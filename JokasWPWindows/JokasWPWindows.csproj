@@ -57,6 +57,8 @@
       <HintPath>..\Parse-1.7.0\Parse.NetFx45\Parse.NetFx45.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
